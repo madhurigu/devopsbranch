@@ -2,15 +2,15 @@ pipeline {
     agent any
 
     stages {   
-        stage('sprint branch') { 
+        stage('sprint2 branch') { 
             steps { 
-               sh 'echo "This is sprint branch"' 
+               sh 'echo "This is sprint2 branch"' 
             }
         }
      
-        stage('sprint1') { 
+        stage('sprint2') { 
             steps { 
-               sh 'echo "sprint1 application..."'
+               sh 'echo "sprint2 application..."'
             }
         }
 
